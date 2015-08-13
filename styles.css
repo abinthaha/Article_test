@@ -1,0 +1,99 @@
+body {
+    background: "minions.jpg";
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+#page_heading {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    background-color: black;
+    color: antiquewhite;
+    margin: 2px 2px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#my_article {
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.article_bg {
+    background-image: linear-gradient(yellow, gray);
+    border-radius: 5px;
+    color: black;
+}
+
+#author {
+    color: red;
+    text-align: center;
+}
+#author:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+#author:active {
+    color: black;
+    text-decoration: underline overline;
+}
+
+#author:visited {
+    color: darkgreen;
+}
+
+#article_section {
+    background-image: linear-gradient(yellow, gray);
+    border-radius: 5px;
+    padding: 5 px 5px;
+}
+
+p {
+    text-indent: 10%;
+    padding: 5px 5px;
+    color: black;
+}
+
+#p1 {
+    line-height: 200%;
+}
+
+#p2 {
+    word-spacing: 20px;
+}
+
+#p3 {
+    letter-spacing: 3px;
+}
+
+#article_footer {
+    width: auto;
+    background-image: linear-gradient(yellow, aqua, #81a7d8);
+    border-radius: 5px;
+    color: black;
+    padding: 10px 10px;
+}
+
+#my_table {
+    padding: 10px 10px;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.eot');
+    src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.eot?iefix') format('eot'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.woff') format('woff'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.ttf') format('truetype'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.svg#webfont6hibqX7I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
